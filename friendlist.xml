@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<hierarchy index="0" class="hierarchy" rotation="0" width="1080" height="2318">
+  <android.widget.FrameLayout index="0" package="com.snapchat.android" class="android.widget.FrameLayout" text="" checkable="false" 
+checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,2400]" displayed="true">
+    <android.widget.LinearLayout index="0" package="com.snapchat.android" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,2400]" displayed="true">
+      <android.widget.FrameLayout index="0" package="com.snapchat.android" class="android.widget.FrameLayout" text="" resource-id="android:id/content" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,2400]" displayed="true">
+        <android.widget.FrameLayout index="0" package="com.snapchat.android" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,2400]" displayed="true">
+          <android.widget.FrameLayout index="0" package="com.snapchat.android" class="android.widget.FrameLayout" text="" resource-id="com.snapchat.android:id/base_open_view" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,2400]" displayed="true"> 
+            <android.widget.FrameLayout index="0" package="com.snapchat.android" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,2400]" displayed="true">
+              <android.view.ViewGroup index="0" package="com.snapchat.android" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,2400]" displayed="true">
+                <android.widget.LinearLayout index="0" package="com.snapchat.android" class="android.widget.LinearLayout" text="" resource-id="com.snapchat.android:id/screen_header" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,84][1080,528]" displayed="true">
+                  <android.view.ViewGroup index="0" package="com.snapchat.android" class="android.view.ViewGroup" text="" resource-id="com.snapchat.android:id/subscreen_top_views" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,84][1080,264]" displayed="true">
+                    <android.view.View index="1" package="com.snapchat.android" class="android.view.View" text="" content-desc="Back arrow" resource-id="com.snapchat.android:id/subscreen_top_left" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[48,126][144,222]" displayed="true" />
+                    <android.widget.TextView index="2" package="com.snapchat.android" class="android.widget.TextView" text="My Friends" resource-id="com.snapchat.android:id/subscreen_top_center" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[349,111][730,237]" displayed="true" />
+                  </android.view.ViewGroup>
+                  <android.widget.LinearLayout index="1" package="com.snapchat.android" class="android.widget.LinearLayout" text="" 
+resource-id="com.snapchat.android:id/subscreen_search_layout" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[48,264][1032,378]" displayed="true">
+                    <android.widget.FrameLayout index="0" package="com.snapchat.android" class="android.widget.FrameLayout" text="" 
+resource-id="com.snapchat.android:id/subscreen_input_search" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[48,264][1032,378]" displayed="true">
+                      <android.widget.EditText index="0" package="com.snapchat.android" class="android.widget.EditText" text="Find friends" resource-id="com.snapchat.android:id/input_field_edit_text" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[72,264][912,378]" displayed="true" hint="Find friends" />
+                    </android.widget.FrameLayout> 
+                  </android.widget.LinearLayout>
+                </android.widget.LinearLayout> Best Friends
+                <androidx.recyclerview.widget.RecyclerView index="1" package="com.snapchat.android" class="androidx.recyclerview.widget.RecyclerView" text="" resource-id="com.snapchat.android:id/recycler_view" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="true" selected="false" bounds="[48,84][996,2400]" displayed="true">
+                  <android.widget.FrameLayout index="0" package="com.snapchat.android" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[48,426][996,508]" displayed="true">
+                    <android.view.View index="0" package="com.snapchat.android" class="android.view.View" text="" checkable="false" 
+checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[48,426][996,508]" displayed="true">
+                      <javaClass index="0" package="com.snapchat.android" class="javaClass" text="Best Friends" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[48,426][386,508]" displayed="true" />
+                    </android.view.View>
+                  </android.widget.FrameLayout>
+                  <android.widget.FrameLayout index="1" package="com.snapchat.android" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[48,532][996,682]" displayed="true">
+                    <android.view.View index="0" package="com.snapchat.android" class="android.view.View" text="" checkable="false" 
+checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[48,532][996,682]" displayed="true">
+                      <javaClass index="0" package="com.snapchat.android" class="javaClass" text="&#128522;" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[892,570][948,644]" displayed="true" />
+                      Zaid
+                      <javaClass index="1" package="com.snapchat.android" class="javaClass" text="Zaid &#127471;&#127476;" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[222,566][868,648]" displayed="true" />
+                    </android.view.View>
+                  </android.widget.FrameLayout>
+                  <android.widget.FrameLayout index="2" package="com.snapchat.android" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[48,682][996,832]" displayed="true">
+                    <android.view.View index="0" package="com.snapchat.android" class="android.view.View" text="" checkable="false" 
+checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[48,682][996,832]" displayed="true">
+                      <javaClass index="0" package="com.snapchat.android" class="javaClass" text="&#128522;" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[892,720][948,794]" displayed="true" />
+                      <javaClass index="1" package="com.snapchat.android" class="javaClass" text="Shbz Raees" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[222,716][868,798]" displayed="true" />
+                    </android.view.View>
+                  </android.widget.FrameLayout>A
+                  <android.widget.FrameLayout index="3" package="com.snapchat.android" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[48,880][996,962]" displayed="true">
+                    <android.view.View index="0" package="com.snapchat.android" class="android.view.View" text="" checkable="false" 
+checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[48,880][996,962]" displayed="true">
+                      <javaClass index="0" package="com.snapchat.android" class="javaClass" text="A" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[48,880][90,962]" displayed="true" />
+                    </android.view.View>
+                  </android.widget.FrameLayout>
+                  Afaq
+                  <android.widget.FrameLayout index="4" package="com.snapchat.android" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[48,986][996,1136]" displayed="true">
+                    
+                    <android.view.View index="0" package="com.snapchat.android" class="android.view.View" text="" checkable="false" 
+checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[48,986][996,1136]" displayed="true">
+                      <javaClass index="0" package="com.snapchat.android" class="javaClass" text="Afaq Ahmad" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[222,1020][924,1102]" displayed="true" />
+                    </android.view.View>
+                  </android.widget.FrameLayout>
+                  <android.widget.FrameLayout index="5" package="com.snapchat.android" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[48,1136][996,1286]" displayed="true">
+                    <android.view.View index="0" package="com.snapchat.android" class="android.view.View" text="" checkable="false" 
+checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[48,1136][996,1286]" displayed="true">
+                      <javaClass index="0" package="com.snapchat.android" class="javaClass" text="Ali J" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[222,1170][924,1252]" displayed="true" />
+                    </android.view.View>
+                  </android.widget.FrameLayout>
+                  <android.widget.FrameLayout index="6" package="com.snapchat.android" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[48,1286][996,1436]" displayed="true">
+                    <android.view.View index="0" package="com.snapchat.android" class="android.view.View" text="" checkable="false" 
+checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[48,1286][996,1436]" displayed="true">
+                      <javaClass index="0" package="com.snapchat.android" class="javaClass" text="Ashok" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[222,1320][924,1402]" displayed="true" />
+                    </android.view.View>
+                  </android.widget.FrameLayout>
+                  <android.widget.FrameLayout index="7" package="com.snapchat.android" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[48,1436][996,1586]" displayed="true">
+                    <android.view.View index="0" package="com.snapchat.android" class="android.view.View" text="" checkable="false" 
+checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[48,1436][996,1586]" displayed="true">
+                      <javaClass index="0" package="com.snapchat.android" class="javaClass" text="Awais" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[222,1470][924,1552]" displayed="true" />
+                    </android.view.View>
+                  </android.widget.FrameLayout>
+                  <android.widget.FrameLayout index="8" package="com.snapchat.android" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[48,1634][996,1716]" displayed="true">
+                    <android.view.View index="0" package="com.snapchat.android" class="android.view.View" text="" checkable="false" 
+checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[48,1634][996,1716]" displayed="true">
+                      <javaClass index="0" package="com.snapchat.android" class="javaClass" text="D" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[48,1634][94,1716]" displayed="true" />
+                    </android.view.View>
+                  </android.widget.FrameLayout>
+                  <android.widget.FrameLayout index="9" package="com.snapchat.android" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[48,1740][996,1890]" displayed="true">
+                    <android.view.View index="0" package="com.snapchat.android" class="android.view.View" text="" checkable="false" 
+checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[48,1740][996,1890]" displayed="true">
+                      <javaClass index="0" package="com.snapchat.android" class="javaClass" text="Danish Khan 105" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[222,1774][924,1856]" displayed="true" />
+                    </android.view.View>
+                  </android.widget.FrameLayout>
+                  <android.widget.FrameLayout index="10" package="com.snapchat.android" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[48,1890][996,2040]" displayed="true">
+                    <android.view.View index="0" package="com.snapchat.android" class="android.view.View" text="" checkable="false" 
+checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[48,1890][996,2040]" displayed="true">
+                      <javaClass index="0" package="com.snapchat.android" class="javaClass" text="Dr Hazel" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" 
+scrollable="false" selected="false" bounds="[222,1924][924,2006]" displayed="true" />
+                    </android.view.View>
+                  </android.widget.FrameLayout>
+                  <android.widget.FrameLayout index="11" package="com.snapchat.android" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[48,2088][996,2170]" displayed="true">
+                    <android.view.View index="0" package="com.snapchat.android" class="android.view.View" text="" checkable="false" 
+checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[48,2088][996,2170]" displayed="true">
+                      <javaClass index="0" package="com.snapchat.android" class="javaClass" text="G" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[48,2088][94,2170]" displayed="true" />
+                    </android.view.View>
+                  </android.widget.FrameLayout>
+                  <android.widget.FrameLayout index="12" package="com.snapchat.android" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[48,2194][996,2344]" displayed="true">
+                    <android.view.View index="0" package="com.snapchat.android" class="android.view.View" text="" checkable="false" 
+checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[48,2194][996,2344]" displayed="true">
+                      <javaClass index="0" package="com.snapchat.android" class="javaClass" text="Gautam" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[222,2228][924,2310]" displayed="true" />
+                    </android.view.View>
+                  </android.widget.FrameLayout>
+                  <android.widget.FrameLayout index="13" package="com.snapchat.android" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[48,2344][996,2400]" displayed="true">
+                    <android.view.View index="0" package="com.snapchat.android" class="android.view.View" text="" checkable="false" 
+checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[48,2344][996,2400]" displayed="true" />
+                  </android.widget.FrameLayout>
+                </androidx.recyclerview.widget.RecyclerView>
+                <android.widget.TextView index="2" package="com.snapchat.android" class="android.widget.TextView" text="☺&#10;A&#10;B&#10;C&#10;D&#10;E&#10;F&#10;G&#10;H&#10;I&#10;J&#10;K&#10;L&#10;M&#10;N&#10;O&#10;P&#10;Q&#10;R&#10;S&#10;T&#10;U&#10;V&#10;W&#10;X&#10;Y&#10;Z&#10;#" resource-id="com.snapchat.android:id/index_scrollbar" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[978,608][1080,2170]" displayed="true" />
+              </android.view.ViewGroup>
+            </android.widget.FrameLayout>
+          </android.widget.FrameLayout>
+          <android.view.View index="1" package="com.snapchat.android" class="android.view.View" text="" resource-id="com.snapchat.android:id/full_screen_surface_view" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,246][1080,2166]" displayed="true" />     
+        </android.widget.FrameLayout>
+      </android.widget.FrameLayout>
+    </android.widget.LinearLayout>
+  </android.widget.FrameLayout>
+</hierarchy>
